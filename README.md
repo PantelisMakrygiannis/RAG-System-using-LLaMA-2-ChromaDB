@@ -1,7 +1,7 @@
 # RAG-System-using-LLaMA-2-ChromaDB
 This project implements a Question-Answering (QA) System that extracts knowledge from scientific papers and answers user queries using LLaMA-2 and ChromaDB. The pipeline enables document parsing, text chunking, vector embedding, and context-based response generation without relying on pre-trained QA pairs.
 
-Features:
+# Features:
 
  PDF Parsing: Uses PyPDFLoader to read and split the PDF into manageable text chunks.
 
@@ -17,7 +17,7 @@ Features:
 
  Prompt Engineering: Uses a custom prompt template to guide the LLM's responses.
 
-Workflow:
+# Workflow:
 
   PDF Loading → Extracts and splits PDF content.
 
@@ -29,18 +29,18 @@ Workflow:
 
   Response Generation → Feeds context to LLaMA-2 and generates answers.
 
-Tech Stack
+# Tech Stack:
 
-`Python
+Python
 
-  PyTorch
+ PyTorch
 
-  Transformers (HuggingFace)
+ Transformers (HuggingFace)
 
-  Langchain
+ Langchain
 
-  ChromaDB
+ ChromaDB
 
-  LLaMA-2 7B
+ LLaMA-2 7B
 
-  Sentence Transformers
+ Sentence Transformers
